@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&family=Marck+Script&display=swap');
+body{
+    font-family: 'Caveat', cursive;
+    background-image: url(../img/grand-staircase-333802-3_4.jpg);
+    background-size: 100%;
+    color: black;
+    font-size: 35px;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    max-width: 175px;
+    max-height: 175px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-family:  'Marck Script', cursive;
+    margin: 25px;
+
+}
+a:hover{
+    color: darkred;
+    font-size: 45px;
+}
+.container{
+    text-align: center;
+}
+.p-main{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    margin: 20px;
+}
+.p-main img{
+    max-width: 800px;
+    max-height: 600px;
+}
+.img{
+    max-width: 800px;
+    max-height: 600px;
+}

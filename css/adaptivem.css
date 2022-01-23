@@ -1,0 +1,15 @@
+@media screen  (max-width: 992px){
+    .img{
+        max-width: 300px;
+        max-height: 450px;
+    }
+    a{
+        font-size: 25px;
+    }
+}
+@media screen  (max-width: 768px){
+    .img{
+        max-width: 150px;
+        max-height: 200px;
+    }
+}

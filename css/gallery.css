@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&family=Marck+Script&display=swap');
+body{
+    font-family: 'Caveat', cursive;
+    background-image: url(../img/1f03bf8f316362ffdc8a74a4fc80b225--red-curtains-color-red.jpg);
+    background-size: 100%;
+    color: white;
+    font-size: 35px;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    max-width: 175px;
+    max-height: 175px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    color: wheat;
+    text-decoration: none;
+    font-family:  'Marck Script', cursive;
+    margin: 25px;
+}
+a:hover{
+    color: tan;
+    font-size: 45px;
+}
+.container{
+    text-align: center;
+}
+.gallery{
+    display: flex;
+    flex-direction: column;
+}
+.gallery-one{
+    display: flex;
+    justify-content: space-between;
+}
+.gallery-one img{
+    max-width: 300px;
+    max-height: 250px;
+    margin: 20px;
+}
