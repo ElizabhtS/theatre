@@ -1,37 +1,40 @@
 @media screen and (max-width: 992px){
-    .img{
-        max-width: 350px;
-        max-height: 300px;
-    }
     .logo{
         max-width: 90px;
         max-height: 90px;
     }
+    .p-main img{
+        max-width: 700px;
+        max-height: 500px;
+        margin: 10px;
+    }
     a{
+        font-size: 30px;
+        margin: 15px;
+    }
+    p{
         font-size: 30px;
     }
 }
 @media screen and (max-width: 768px){
-    .img{
-        max-width: 200px;
-        max-height: 150px;
-    }
     .logo{
         max-width: 90px;
         max-height: 90px;
     }
     a{
         font-size: 19px;
+        margin: 10px;
     }
     p{
         font-size: 20px;
     }
+    .p-main img{
+        max-width: 650px;
+        max-height: 450px;
+        margin: 10px;
+    }
 }
 @media screen and (max-width: 576px){
-    .img{
-        max-width: 250px;
-        max-height: 200px;
-    }
     .logo{
         max-width: 90px;
         max-height: 90px;
@@ -42,5 +45,10 @@
     }
     p{
         font-size: 15px;
+    }
+    .p-main img{
+        max-width: 400px;
+        max-height: 200px;
+        margin: 10px;
     }
 }
